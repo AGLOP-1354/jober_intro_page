@@ -207,7 +207,7 @@
     </section><!-- End Why Us Section -->
 
 
-s
+
     <!-- ======= Features Section ======= -->
     <section class="features">
       <div class="main_container mb-5">
@@ -539,8 +539,8 @@ s
           minussize = "-=273px"
           timeset = 1000;
         }else if(window.innerWidth < 635){
-          minussize = "-=" + window.innerWidth-60 + "px";
-          console.log(`-=  {window.innerWidth-60}  px`);
+          minussize = `-=${window.innerWidth-60}px`;
+          $('.slide_contents').css('width',`${window.innerWidth-60}px`);
           timeset = 1000;
         }
 

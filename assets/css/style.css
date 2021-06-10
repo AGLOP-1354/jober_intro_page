@@ -2242,16 +2242,6 @@ p {
   .main_container{
     width: 90%;
   }
-  .slidebanner li {
-    width: 100%;
-  }
-  .ad_ct {
-    width: 100%;
-  }
-  .slidebanner,
-  .bannerbox {
-    width: 100%;
-  }
 }
 @media (min-width: 1024px) {
   .jumbotron small {
